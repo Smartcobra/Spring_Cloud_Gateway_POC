@@ -1,0 +1,11 @@
+step-1:
+hit this url in broswer to get the code:
+http://localhost:8000/oauth2/authorize?response_type=code&client_id=client&redirect_uri=http://127.0.0.1:8080/authorized&scope=openid read
+
+you will get the spring default login page for this -- give jitu/password
+it will redirect to you to below url:
+http://127.0.0.1:8080/authorized?code=pj_wqlZdSLoH5h0VGu7m9gj-QIQlS4DpWtfatZFOSDYmchsqhcQQboQKd5NIOrKSHtQeBC8uIE93oMbBbX_AVb22Cibhay9l2gxvSE4y1ji5lVmMHmOE98EUIyckx8SE
+copy the code part as :::: code=pj_wqlZdSLoH5h0VGu7m9gj-QIQlS4DpWtfatZFOSDYmchsqhcQQboQKd5NIOrKSHtQeBC8uIE93oMbBbX_AVb22Cibhay9l2gxvSE4y1ji5lVmMHmOE98EUIyckx8SE
+
+then check the access with the code with POST
+http://localhost:8000/oauth2/token
