@@ -47,7 +47,7 @@
     "last_opened_file_path": "D:/SCG_POC",
     "nodejs_package_manager_path": "npm",
     "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "3ddae8d4e7a3d6211bcbdf5eafbb9033"
+    "spring.configuration.checksum": "0022f2daebab70067dee48cf8ebaddff"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,6 +89,7 @@
       <workItem from="1667323492525" duration="2229000" />
       <workItem from="1667370318461" duration="6783000" />
       <workItem from="1667740345880" duration="4219000" />
+      <workItem from="1667747594357" duration="350000" />
     </task>
     <servers />
   </component>
