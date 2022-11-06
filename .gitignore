@@ -1,4 +1,4 @@
-## exclude everything
+# exclude everything
 .idea
 .idea/*
 SCG_POC.iml
