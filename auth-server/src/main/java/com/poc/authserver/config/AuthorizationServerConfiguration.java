@@ -67,7 +67,8 @@ public class AuthorizationServerConfiguration {
     public ProviderSettings providerSettings() {
         return ProviderSettings.builder()
               //  .issuer("http://auth-server:8000")
-                .issuer("http://localhost:8000")
+                .issuer("http://authserver:8000")
+                //.issuer("http://authserver-env.eba-5u2iy5zv.ap-south-1.elasticbeanstalk.com")
                 .build();
     }
 

@@ -9,3 +9,6 @@ copy the code part as :::: code=pj_wqlZdSLoH5h0VGu7m9gj-QIQlS4DpWtfatZFOSDYmchsq
 
 then check the access with the code with POST
 http://localhost:8000/oauth2/token
+
+start all the server and hit the below url
+http://127.0.0.1:8080/orders
